@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "rummy",
+    "slug": "rummy",
+    "scheme": "rummy",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gokulakrishnank.rummy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gokulakrishnank.rummy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font",
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8c90d335-70c9-40f2-81f7-702b58f89e28",
+        "googleClientId": "925660865360-ebc0917dqkst92gf304c8lrvufhhb5fb.apps.googleusercontent.com"
+      }
+    }
+  }
+}

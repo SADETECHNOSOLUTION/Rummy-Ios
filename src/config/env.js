@@ -1,0 +1,1 @@
+import Constants from 'expo-constants';const extra=Constants.expoConfig?.extra||{};export const ENV={apiBaseUrl:extra.apiBaseUrl||'http://localhost:8080',wsUrl:extra.wsUrl||'ws://localhost:8080/ws',googleClientId:extra.googleClientId||'',environment:extra.environment||'development'};

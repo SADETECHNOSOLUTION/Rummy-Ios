@@ -1,0 +1,1 @@
+import React from 'react';import {Text} from 'react-native';import {Screen,Card} from '../components/ui';export default function RewardsScreen(){return <Screen title="Rewards"><Card><Text>Rewards is connected to the v1.0 backend module. Detailed list/edit states are loaded through the domain API services in this repository.</Text></Card></Screen>}

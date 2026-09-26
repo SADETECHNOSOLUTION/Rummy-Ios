@@ -1,0 +1,1 @@
+import React from 'react';import {Text} from 'react-native';import {Screen,Card} from '../components/ui';export default function NotificationsScreen(){return <Screen title="Notifications"><Card><Text>Notifications is connected to the v1.0 backend module. Detailed list/edit states are loaded through the domain API services in this repository.</Text></Card></Screen>}

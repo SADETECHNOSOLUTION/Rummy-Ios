@@ -1,0 +1,1 @@
+export const colors={primary:'#F8CA55',primaryStrong:'#FDC939',secondary:'#2F3943',background:'#FFFFFF',surface:'#EEEBEB',textPrimary:'#2F3943',textSecondary:'#848282',success:'#53AF67',error:'#F57171',info:'#1F41BB',border:'#C0B6B6',gameTable:'#51A17A',joker:'#FFD400'};
